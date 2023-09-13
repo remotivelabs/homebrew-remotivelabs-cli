@@ -10,6 +10,11 @@ class RemotivelabsCli < Formula
     url :stable
   end
 
+  bottle do
+    root_url "https://github.com/remotivelabs/homebrew-remotivelabs-cli/releases/download/remotivelabs-cli-0.0.1a24"
+    sha256 cellar: :any_skip_relocation, ventura: "22a7fd95b99509802324d2501fb64fe91fbbcefe0951fbfedb55140f5d6b83f4"
+  end
+
   depends_on "cmake"
   depends_on "python-certifi"
   depends_on "python-cryptography"
