@@ -120,6 +120,6 @@ class RemotivelabsCli < Formula
   end
 
   test do
-    assert_equal "remotivelabs-cli 0.0.1a24", shell_output("#{bin}/remotive --version").strip
+    assert_equal "remotivelabs-cli 0.0.1a25", shell_output("#{bin}/remotive --version").strip
   end
 end
