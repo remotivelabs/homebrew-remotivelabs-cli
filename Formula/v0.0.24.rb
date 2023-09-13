@@ -10,6 +10,11 @@ class V0024 < Formula
     url :stable
   end
 
+  bottle do
+    root_url "https://github.com/remotivelabs/homebrew-remotivelabs-cli/releases/download/v0.0.24-0.0.1a24"
+    sha256 cellar: :any_skip_relocation, ventura: "ef232a7d5585a1da32748103679660bf3d6604af6f23f0cf6f57b7fbb7064d04"
+  end
+
   depends_on "cmake"
   depends_on "python-certifi"
   depends_on "python-cryptography"
