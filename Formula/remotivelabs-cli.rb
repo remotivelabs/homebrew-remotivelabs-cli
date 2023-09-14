@@ -2,8 +2,8 @@ class RemotivelabsCli < Formula
   include Language::Python::Virtualenv
   desc "CLI for managing RemotiveLabs cloud and brokers"
   homepage "https://remotivelabs.com"
-  url "https://files.pythonhosted.org/packages/67/16/661b00b9e96e680e2135bb04d23db93fef270602ce47fc81420ba85e6672/remotivelabs_cli-0.0.1a26.tar.gz"
-  sha256 "8377418add3c0aee77761da9b47aa1f5b479eb34b9af89da1a6bec7f35c6b752"
+  url "https://files.pythonhosted.org/packages/04/de/d48439f9442583cf912bde753db9e939d4a153e7a7979faf1e52a36cfd1f/remotivelabs_cli-0.0.1a27.tar.gz"
+  sha256 "f78c8c249e920e8278075dcaeba15da8154531b72bb9611c0fc3678b2aecec48"
   license "Apache-2.0"
 
   livecheck do
@@ -121,6 +121,6 @@ class RemotivelabsCli < Formula
   end
 
   test do
-    assert_equal "remotivelabs-cli 0.0.1a26", shell_output("#{bin}/remotive --version").strip
+    assert_equal "remotivelabs-cli 0.0.1a27", shell_output("#{bin}/remotive --version").strip
   end
 end
