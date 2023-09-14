@@ -11,9 +11,11 @@ class RemotivelabsCli < Formula
   end
 
   bottle do
-    root_url "https://github.com/remotivelabs/homebrew-remotivelabs-cli/releases/download/remotivelabs-cli-0.0.1a26"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "cebc5c0dadfdd1012b00bb617cd911d4734b9e9e289681b57a0c0b7bc6144e9b"
-    sha256 cellar: :any_skip_relocation, ventura:       "9e71a3129be898d77b8bcdabd98b27dafa5a66c0c93c82f982fdb522dd660b11"
+    root_url "https://github.com/remotivelabs/homebrew-remotivelabs-cli/releases/download/remotivelabs-cli-0.0.1a27"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "d9c8604e5e6a800dfdd8f8582e1d4209887e906972b88070c6a322428ba4e402"
+    sha256 cellar: :any_skip_relocation, ventura:       "4ffcdf9765e1694ce76a0d7790d531e5e5f15a34b41fea896d6372764263421c"
+    sha256 cellar: :any_skip_relocation, monterey:      "d327ae638db0668556a8a336b217a2b7a503e02e83cde0feb47ff5ed902108be"
+    sha256 cellar: :any_skip_relocation, big_sur:       "4c22075cc14aef2855b80845e71d4615c4296f1b365dd8093aea0ed5aee8b12b"
   end
 
   depends_on "cmake"
