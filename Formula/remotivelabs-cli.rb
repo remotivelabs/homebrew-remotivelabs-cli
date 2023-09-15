@@ -2,8 +2,8 @@ class RemotivelabsCli < Formula
   include Language::Python::Virtualenv
   desc "CLI for managing RemotiveLabs cloud and brokers"
   homepage "https://remotivelabs.com"
-  url "https://files.pythonhosted.org/packages/04/de/d48439f9442583cf912bde753db9e939d4a153e7a7979faf1e52a36cfd1f/remotivelabs_cli-0.0.1a27.tar.gz"
-  sha256 "f78c8c249e920e8278075dcaeba15da8154531b72bb9611c0fc3678b2aecec48"
+  url "https://files.pythonhosted.org/packages/68/19/5cb108f123ac44d1054c7aa5215be05eb1f4b6a266aaefbb961b7ec10b5f/remotivelabs_cli-0.0.1a28.tar.gz"
+  sha256 "2fad2077c7677e18d69d09df2fa490631c176f2034b894d9e74502fa51a04bbb"
   license "Apache-2.0"
 
   livecheck do
